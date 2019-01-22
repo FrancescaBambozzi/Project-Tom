@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>NYSL-Registration</title>
+<link rel="stylesheet" type="text/css" href="styles/nysl_3.css">
+<link href="https://fonts.googleapis.com/css?family=Cantora+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+
+<body>
+  <header id="game-info-header">
+    <h1>Northside Youth Soccer League</h1>
+      <nav id="navigation-bar" class="game-info-navbar">
+        <ul>
+          <li><a href="file:///C:/Users/bambo/OneDrive/Desktop/Ubiqum%20Project/home.html">Home</a></li>
+          <li><a href="file:///C:/Users/bambo/OneDrive/Desktop/Ubiqum%20Project/about.html">About</a></li>
+          <li><a href="file:///C:/Users/bambo/OneDrive/Desktop/Ubiqum%20Project/contact.html">Contact</a></li>
+          <li><a href="file:///C:/Users/bambo/OneDrive/Desktop/Ubiqum%20Project/game_info.html">Game Info</a></li>
+          <li><a href="file:///C:/Users/bambo/OneDrive/Desktop/Ubiqum%20Project/rules.html">Rules & Policies</a></li>
+          <li><a class="currentLink" href="file:///C:/Users/bambo/OneDrive/Desktop/Ubiqum%20Project/registration.html">Registration</a></li>
+        </ul>
+      </nav>
+  </header>
+
+ <section id="main-content">
+
+   <div class="form-container">
+      <h2 class="regis-h2">Registration Form</h2>
+
+   <form class="reg-form" action="show_data.html" method="get">
+
+     <label>Player’s First Name:
+       <input type="text" name="firstname">
+     </label>
+     <label>Last Name:
+       <input type="text" name="lastname">
+     </label><br>
+     <label>Street Address:
+       <input type="text" name="address">
+     </label><br>
+     <label>City:
+       <input type="text" name="city">
+     </label>
+     <label>Zip Code:
+       <input type="text" name="zipcode">
+     </label><br>
+     <label>Birth Date (mm/dd/yyyy):
+       <input type="date" name="birthday">
+     </label>
+     <label>Gender:</label>
+       <input type="radio" name="gender" value="female"> Female
+       <input type="radio" name="gender" value="male"> Male
+     <br>
+     <label>Grade:</label>
+       <input type="radio" name="grade" value="pre-school">Pre-School
+       <input type="radio" name="grade" value="1st">1st
+       <input type="radio" name="grade" value="2nd">2nd
+       <input type="radio" name="grade" value="3rd">3rd
+       <input type="radio" name="grade" value="4th">4th
+       <input type="radio" name="grade" value="5th">5th
+     <br>
+    <label>Parent/Guardian:
+      <input type="text" name="parent-name">
+    </label><br>
+    <label>Contact Phone:
+      <input type="tel" name="phone-number">
+    </label>
+    <label>Contact Email:
+      <input type="email" name="email-address">
+    </label><br>
+
+    <label><strong>Which elementary schools do you live near?</strong></label><br>
+     <table class="registr-table">
+       <tr>
+         <th class="registr-th" scope="col">First Closest School:</th>
+         <th class="registr-th" scope="col">Second Closest School:</th>
+       </tr>
+       <tr>
+         <td>
+           <select name="school">
+                 <option value="AJ Katzenmaier" selected>AJ Katzenmaier</option>
+                 <option value="Marjorie P Hart">Marjorie P Hart</option>
+                 <option value="Greenbay">Greenbay</option>
+                 <option value="North Elementary">North Elementary</option>
+                 <option value="Howard A Yeager">Howard A Yeager</option>
+                 <option value="South Elementary">South Elementary</option>
+             </select>
+         </td>
+         <td>
+           <select name="school">
+                 <option value="AJ Katzenmaier" selected>AJ Katzenmaier</option>
+                 <option value="Marjorie P Hart">Marjorie P Hart</option>
+                 <option value="Greenbay">Greenbay</option>
+                 <option value="North Elementary">North Elementary</option>
+                 <option value="Howard A Yeager">Howard A Yeager</option>
+                 <option value="South Elementary">South Elementary</option>
+             </select>
+         </td>
+       </tr>
+     </table>
+
+    <label><strong>What position(s) do you normally play?</strong> (check all that apply)</label>
+      <table class="registr-table">
+        <tr>
+          <td><input type="checkbox" name="positions" value="Forward">Forward</td>
+          <td><input type="checkbox" name="positions" value="Midfield">Midfield</td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name="positions" value="Defense">Defense</td>
+          <td><input type="checkbox" name="positions" value="Goalkeeper">Goalkeeper</td>
+        </tr>
+      </table>
+
+    <label><strong>What position(s) do you want to play?</strong> (check all that apply)</label>
+      <table class="registr-table">
+        <tr>
+          <td><input type="checkbox" name="positions" value="Forward">Forward</td>
+          <td><input type="checkbox" name="positions" value="Midfield">Midfield</td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name="positions" value="Defense">Defense</td>
+          <td><input type="checkbox" name="positions" value="Goalkeeper">Goalkeeper</td>
+        </tr>
+      </table>
+
+    <label><input type="radio" name="uniform"><strong>Already Have a Uniform</strong></label><br>
+
+    <table class="registr-table">
+      <tr>
+        <th class="registr-th" scope="col" colspan="2">Jersey Size:</th>
+        <th class="registr-th" scope="col" colspan="2">Shorts Size:</th>
+      </tr>
+      <tr>
+        <td><input type="radio" name="size">Youth Small</td>
+        <td><input type="radio" name="size">Medium</td>
+        <td><input type="radio" name="size">Youth Small</td>
+        <td><input type="radio" name="size">Medium</td>
+      </tr>
+      <tr>
+        <td><input type="radio" name="size">Youth Medium</td>
+        <td><input type="radio" name="size">Large</td>
+        <td><input type="radio" name="size">Youth Medium</td>
+        <td><input type="radio" name="size">Large</td>
+      </tr>
+      <tr>
+        <td><input type="radio" name="size">Youth Large</td>
+        <td><input type="radio" name="size">Extra-Large</td>
+        <td><input type="radio" name="size">Youth Large</td>
+        <td><input type="radio" name="size">Extra-Large</td>
+      </tr>
+      <tr>
+        <td colspan="2"><input type="radio" name="size">Small</td>
+        <td colspan="2"><input type="radio" name="size">Small</td>
+      </tr>
+    </table>
+
+    <div class="permission">
+      <p><span>Permission to Play</span></p>
+      <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League” accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL sponsored activities, which transportation.</p><br>
+      <p>By entering your name below, I hereby agree and authorize the above. In addition, by entering your name below, I also acknowledge that I have read the cancellation policy and agree to its terms.</p>
+      <br>
+    </div>
+
+    <label>Parent/Guardian Signature:
+      <input type="text" name="sign">
+    </label>
+    <label>Date:
+      <input type="date" name="date">
+    </label>
+
+    <div class="submit-button">
+      <input type="submit" value="Submit">
+    </div>
+   </form>
+  </div>
+ </section>
+
+</body>
+</html>

@@ -1,0 +1,401 @@
+/* General Style */
+* {
+   margin: 0;
+   padding: 0;
+   font-size: 16px;
+   font-family: 'Raleway', sans-serif;
+}
+
+header {
+        background-image: url('../img/soccer-img.jpg');
+        background-size: cover;
+        height: 100vh; /*Use it to make the header covering the full screen*/
+}
+
+ #header-about {
+                background-image: url('../img/design2_image1.jpg');
+}
+
+#header-contact {
+                 background-image: url('../img/design1_image1.jpg');
+}
+
+h1 {
+   font-family: 'Staatliches', cursive;
+   font-size: 90px;
+   position: relative;
+   color: #fff;
+   text-shadow: 2px 4px #000;
+   text-align: center;
+   top: 60%;
+}
+
+img {
+     position: relative;
+     left: 45%;
+     top: -80px;
+}
+
+/* Navig Bar style */
+aside {
+       display: block;
+       position: relative;
+       text-align: center;
+       bottom: 600px;
+
+}
+
+#navigation-bar ul {
+                    background-color: rgba(0,0,0,0.8);
+                    margin-left: 15%;
+                    margin-right: 15%;
+}
+#navigation-bar ul li {
+                       display: inline-block;
+                       width: 100px;
+                       padding: 20px;
+}
+
+#navigation-bar ul li a {
+                        text-decoration: none;
+                        color: #fff;
+                        font-family: 'Staatliches', cursive;
+                        text-transform: uppercase;
+}
+
+#navigation-bar a:hover {
+                         color: #b5ff44;
+}
+
+#navigation-bar li a.currentLink {
+                                  color: #b5ff44;
+}
+
+/* H2 style */
+h2 {
+    font-family: 'Staatliches', cursive;
+    font-size: 40px;
+    color: #404040;
+    margin-left: 10%;
+}
+
+/*** HOMEPAGE ***/
+/* Events DIV style */
+.main-text {
+             display: block;
+             width: 90%;
+             float: right;
+             box-sizing: border-box;
+             text-align: left;
+             padding: 40px;
+}
+
+.main-text ul {
+               list-style-type: none;
+}
+
+li.event {
+          padding-bottom: 50px;
+}
+
+.main-text span {
+                 font-style: oblique;
+                 margin-left: -15px;
+}
+
+/*** ABOUT PAGE ***/
+/* About Div Box - Main text style */
+h3 {
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
+    color: #404040;
+}
+
+.main-text .about-text {
+                        padding-bottom: 40px;
+                        padding-left: 15px;
+}
+
+/*** CONTACT PAGE ***/
+section {
+         margin-bottom: 200px;
+}
+
+/*** RULES&POLICIES PAGE ***/
+#rules-header {
+               height: 260px;
+               padding-top: 50px;
+               background-image: url('../img/soccer-field.jpg');
+}
+
+#rules-header h1 {
+                  padding-top: 20px;
+}
+
+#rules-headings {
+                 display: block;
+                 text-align: center;
+}
+
+#rules-headings span {
+                      font-family: 'Staatliches', cursive;
+                      font-size: 40px;
+                      color: #404040;
+                      line-height: 100px;
+}
+
+/* Rules Page - Navigation Bar*/
+.rules-navbar {
+               position: relative;
+               bottom: 85px;
+               text-align: center;
+}
+
+
+#main-content {
+               margin: 5% 10% 5% 10%;
+}
+
+.rule {
+       display: inline-block;
+       padding-bottom: 30px;
+}
+
+ul, ol li {
+           margin-left: 30px; /*all the elements inside a list get 30px margin from their own container*/
+}
+
+.fifa-regulations {
+                   padding-bottom: 25px;
+}
+
+#regulation4 {
+              padding-bottom: 0;
+}
+
+/*** GAME INFORMATION PAGE ***/
+#game-info-header {
+                   height: 260px;
+                   padding-top: 50px;
+                   background-image: url('../img/field.jpg');
+}
+
+#game-info-header h1 {
+                      padding-top: 20px;
+}
+
+.game-info-navbar {
+                   position: relative;
+                   bottom: 85px;
+                   text-align: center;
+}
+
+
+/* Game Info TABLE style */
+#game-info-headings-h2 {
+                          display: block;
+                          text-align: center;
+                          font-family: 'Staatliches', cursive;
+                          font-size: 40px;
+                          color: #404040;
+                          line-height: 100px;
+                          padding-right: 25%;
+}
+
+#game-info-headings {
+                    padding-bottom: 30px;
+                    line-height: 35px;
+}
+
+#game-info-headings .note {
+                           text-decoration: underline;
+}
+
+#tables-wrap {
+              margin-left: 20%;
+}
+
+table {
+       padding-bottom: 50px;
+}
+
+tr, td {
+        width: auto;
+        text-align: left;
+        padding-right: 20px;
+        padding-left: 20px;
+}
+
+.date {
+       text-align: center;
+       padding-bottom: 21px;
+}
+
+#last-date {
+           padding-bottom: 0;
+}
+
+th {
+    text-decoration: underline;
+}
+
+.add-info {
+           display: block;
+           width: 70%;
+}
+
+.add-info p {
+             padding-bottom: 30px;
+}
+
+#email {
+        float: right;
+}
+
+/* Game Locations + Maps Style */
+.game-locations-table {
+
+}
+
+/*** REGISTRATION FORM PAGE ***/
+#reg-main-content {
+                   display: flex;
+                   justify-content: center;
+}
+
+.regis-h2 {
+           padding-bottom: 40px;
+           padding-left: 150px;
+}
+
+.form-container {
+                 width: 85%;
+                 margin-left: 10%;
+}
+
+label {
+       line-height: 40px;
+}
+
+.registr-table {
+              padding-bottom: 20px;
+}
+
+.registr-th {
+           text-decoration: none;
+           padding-bottom: 5px;
+}
+
+.permission span {
+                 line-height: 60px;
+                 text-decoration: underline;
+                 font-weight: bold;
+}
+
+input {
+       border: none;
+       border-bottom: 1px solid #000;
+       display: inline-block;
+}
+
+/*make INPUT boxes to be different sizes*/
+input[name="firstname"]{
+                        width: 290px;
+}
+
+input[name="lastname"]{
+                       width: 300px;
+}
+
+input[name="address"]{
+                      width: 715px;
+}
+
+input[name="city"],
+[name="zipcode"]{
+                 width: 360px;
+}
+
+input[name="parent-name"] {
+                           width: 700px;
+}
+
+input[name="phone-number"],
+[name="email-address"]{
+                       width: 300px;
+}
+
+input[name="sign"]{
+                   width: 470px;
+}
+
+/*style RADIO & CHECKBOX buttons*/
+input[type="radio"],
+input[type="checkbox"]{
+                       display: inline-block;
+                       margin-right: 5px;
+}
+
+input[name="grade"]{
+                    margin-left: 20px;
+}
+
+/*SUBMIT button style*/
+input[type="submit"]{
+                     width: 100%;
+                     padding: 15px;
+                     margin-top: 60px;
+                     font-weight: bold;
+                     text-transform: uppercase;
+}
+
+input[type="submit"]:hover {
+                           box-shadow:  0px 4px 6px 0px rgba(0,0,0,0.2);
+                           background-image: linear-gradient(to bottom right, #323232, #D3D3D3);
+}
+
+/*** FEEDBACK PAGE ***/
+.feedback-h2 {
+             text-align: center;
+             margin-left: 0;
+             color: #fff;
+             text-shadow: 2px 4px #000;
+}
+
+.feedback-table-container {
+                          width: 100%;
+                          display: flex;
+                          justify-content: center;
+                          align-items: center;
+                          margin-top: 60px;
+}
+
+.feedback-table {
+                padding: 10px;
+                border: 6px solid #fff;
+}
+
+.feedback-table td, th {
+                       padding: 5px 20px 5px 20px;
+                       text-transform: capitalize;
+                       font-weight: 600;
+                       background-color: #fff;
+                       border: 0.5px solid #000;
+                       
+}
+
+.feedback-th {
+             text-decoration: none;
+             text-transform: uppercase;
+             background-color: #b5ff44;
+}
+
+.feedback-body {
+               background-image: url('../img/football-606235_1280.jpg');
+               background-repeat: no-repeat;
+               background-size: cover;
+}
+
+#september-table td {
+  background: green;
+}

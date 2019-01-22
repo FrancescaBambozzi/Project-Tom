@@ -1,0 +1,108 @@
+/* General Style */
+* {
+   margin: 0;
+   padding: 0;
+}
+
+/* Header style */
+header {
+        background-image: url('../img/design2_image1.jpg');
+        background-size: cover;
+        height: 360px;
+        margin-top: 70px;
+}
+
+h1 {
+   font-family: 'Cantora One', sans-serif;
+   font-size: 60px;
+   position: relative;
+   top: -65px;
+   padding-left: 20px;
+}
+
+/* H2 style */
+h2 {
+    text-align: center;
+    border-bottom: 2px solid #000;
+    background:#000;
+    color:#fff;
+    padding: 15px;
+    font-family: 'Cantora One', sans-serif;
+}
+
+/* Navigation Bar style */
+aside {
+       display: block;
+       position: relative;
+       float: right;
+       right: 130px;
+       bottom: 380px;
+       box-sizing: border-box;
+  }
+
+#navigation-bar ul li {
+                       list-style-type: none;
+                       float: left;
+                       width: 120px;
+}
+
+#navigation-bar li a {
+                      font-family: 'Cantora One', sans-serif;
+                      text-decoration: none;
+                      color: #fff;
+                      background-color: #0C46AF;
+                      padding: 10px 25px 10px 25px;
+                      border: 1px solid black;
+                      box-shadow: 5px 5px #000;
+}
+
+#navigation-bar a:hover {
+                         background-color: lightgreen;
+}
+
+#navigation-bar li a.currentLink {
+                                  color: #fff;
+                                  background-color: lightgreen;
+}
+
+/*** HOMEPAGE ***/
+/* Events DIV style */
+.main-text {
+             display: block;
+             width: 80%;
+             float: right;
+             box-sizing: border-box;
+             padding-top: 40px;
+             text-align: left;
+}
+
+.main-text ul {
+               list-style-type: none;
+}
+
+li.event {
+          padding-bottom: 50px;
+}
+
+.main-text span {
+                font-style: oblique;
+                margin-left: -15px;
+}
+
+/* move the logo to left side of main-text */
+img {
+     position: relative;
+     top: 400px;
+     left: 40px;
+}
+
+/*** ABOUT PAGE ***/
+/* About Div Box - Main text style */
+h3 {
+    font-family: 'Cantora One', sans-serif;
+}
+
+.main-text .about-text {
+                        padding-bottom: 40px;
+                        padding-left: 15px;
+}
